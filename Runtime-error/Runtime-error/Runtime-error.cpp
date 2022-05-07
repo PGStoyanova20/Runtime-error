@@ -1,8 +1,6 @@
-#include <iostream>
-
-using namespace std;
+#include "menu.h"
 
 int main()
 {
-    cout << "Hello World!\n";
+    menu();
 }
