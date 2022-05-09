@@ -6,4 +6,6 @@ using namespace std;
 #include <string>
 #include <conio.h>
 
+#include "gamemodeOptions.h"
+
 void menu();

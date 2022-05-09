@@ -144,7 +144,7 @@
     <ClCompile Include="Runtime-error.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gameModeOptions.h" />
+    <ClInclude Include="gamemodeOptions.h" />
     <ClInclude Include="menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
