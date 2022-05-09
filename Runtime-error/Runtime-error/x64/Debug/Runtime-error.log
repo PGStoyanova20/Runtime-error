@@ -1,6 +1,2 @@
-﻿  gamemodeOptions.cpp
-  menu.cpp
-  Runtime-error.cpp
-  Generating Code...
-  LINK : C:\random\Galq\c++\Runtime-error\Runtime-error\x64\Debug\Runtime-error.exe not found or not built by the last incremental link; performing full link
+﻿  menu.cpp
   Runtime-error.vcxproj -> C:\random\Galq\c++\Runtime-error\Runtime-error\x64\Debug\Runtime-error.exe
