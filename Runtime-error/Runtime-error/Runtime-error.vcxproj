@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="gamemodeOptions.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="rules.cpp" />
     <ClCompile Include="Runtime-error.cpp" />
   </ItemGroup>
   <ItemGroup>
