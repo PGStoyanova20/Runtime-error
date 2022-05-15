@@ -1,5 +1,6 @@
 #include "gameCards.h"
 
+// Prints initial card where 0 is on top
 void baseCard0()
 {
 	cout << R"( 
@@ -9,6 +10,7 @@ void baseCard0()
 |_1_| )";
 }
 
+// Prints initial card where 1 is on top
 void baseCard1()
 {
 	cout << R"( 
@@ -18,6 +20,7 @@ void baseCard1()
 |_0_| )";
 }
 
+// Prints AND card with 1 entrance for bottom pyramid
 void ANDCard1Entrance()
 {
 	cout << R"( 
@@ -27,6 +30,8 @@ void ANDCard1Entrance()
 |___| )";
 	
 }
+
+// Prints AND card with 0 entrance for bottom pyramid
 void ANDCard0Entrance()
 {
 	cout << R"( 
@@ -35,6 +40,8 @@ void ANDCard0Entrance()
 |AND|
 |___| )";
 }
+
+// Prints AND card with 0 entrance for top pyramid
 void ANDCard0Exit()
 {
 	cout << R"( 
@@ -43,6 +50,8 @@ void ANDCard0Exit()
 |AND|
 |_0_| )";
 }
+
+// Prints AND card with 1 entrance for top pyramid
 void ANDCard1Exit()
 {
 	cout << R"( 
@@ -52,6 +61,8 @@ void ANDCard1Exit()
 |_1_| )";
 	
 }
+
+// Prints OR card with 1 entrance for bottom pyramid
 void ORCard1Entrance()
 {
 	cout << R"( 
@@ -60,6 +71,8 @@ void ORCard1Entrance()
 | OR|
 |___| )";
 }
+
+// Prints OR card with 0 entrance for bottom pyramid
 void ORCard0Entrance()
 {
 	cout << R"( 
@@ -68,6 +81,8 @@ void ORCard0Entrance()
 | OR|
 |___| )";
 }
+
+// Prints OR card with 0 entrance for top pyramid
 void ORCard0Exit()
 {
 	cout << R"( 
@@ -76,6 +91,8 @@ void ORCard0Exit()
 | OR|
 |_0_| )";
 }
+
+// Prints OR card with 1 entrance for top pyramid
 void ORCard1Exit()
 {
 	cout << R"( 
@@ -84,6 +101,8 @@ void ORCard1Exit()
 | OR|
 |_1_| )";
 }
+
+// Prints XOR card with 1 entrance for bottom pyramid
 void XORCard1Entrance()
 {
 	cout << R"( 
@@ -92,6 +111,8 @@ void XORCard1Entrance()
 |XOR|
 |___| )";
 }
+
+// Prints XOR card with 0 entrance for bottom pyramid
 void XORCard0Entrance()
 {
 	cout << R"( 
@@ -100,6 +121,8 @@ void XORCard0Entrance()
 |XOR|
 |___| )";
 }
+
+// Prints XOR card with 0 entrance for top pyramid
 void XORCard0Exit()
 {
 	cout << R"( 
@@ -108,6 +131,8 @@ void XORCard0Exit()
 |XOR|
 |_0_| )";
 }
+
+// Prints XOR card with 1 entrance for top pyramid
 void XORCard1Exit()
 {
 	cout << R"( 
@@ -117,12 +142,14 @@ void XORCard1Exit()
 |_1_| )";
 }
 
+//  Adds spacing between cards
 void space()
 {
 	cout << "		";
 }
 
-void LevelOne()
+//  Calling everything together
+void levelOne()
 {
 	baseCard1();
 	space();
