@@ -7,6 +7,7 @@ using namespace std;
 #include <conio.h>
 
 #include "gamemodeOptions.h" 
+#include "rules.h"
 
 // Calling main function
 void menu();

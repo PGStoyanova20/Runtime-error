@@ -79,6 +79,7 @@ void pickedOption(int &menuIndex, bool &exitGame)
 		break;
 	// Rules
 	case 1:
+		printRules();
 	// Quit
 	case 2:
 		exitGame = 1;
