@@ -7,5 +7,7 @@ using namespace std;
 #include <conio.h>
 
 #include "gamemodeOptions.h"
+#include "gameCards.h"
 
 void menu();
+void navigation(int& menuIndex, bool& optionCheck);

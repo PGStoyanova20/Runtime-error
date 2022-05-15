@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include "gameCards.h"
 
 void baseCard0()
 {
@@ -22,89 +20,115 @@ void baseCard1()
 
 void ANDCard1Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 1 |" << endl;
-	cout << "|AND|" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 1 |
+|AND|
+|___| )";
+	
 }
 void ANDCard0Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 0 |" << endl;
-	cout << "|AND|" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 0 |
+|AND|
+|___| )";
 }
 void ANDCard0Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|AND|" << endl;
-	cout << "|_0_|" << endl;
+	cout << R"( 
+ ___
+|   |
+|AND|
+|_0_| )";
 }
 void ANDCard1Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|AND|" << endl;
-	cout << "|_1_|" << endl;
+	cout << R"( 
+ ___
+|   |
+|AND|
+|_1_| )";
+	
 }
 void ORCard1Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 1 |" << endl;
-	cout << "|OR |" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 1 |
+| OR|
+|___| )";
 }
 void ORCard0Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 0 |" << endl;
-	cout << "|OR |" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 0 |
+| OR|
+|___| )";
 }
 void ORCard0Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|OR |" << endl;
-	cout << "|_0_|" << endl;
+	cout << R"( 
+ ___
+|   |
+| OR|
+|_0_| )";
 }
 void ORCard1Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|OR |" << endl;
-	cout << "|_1_|" << endl;
+	cout << R"( 
+ ___
+|   |
+| OR|
+|_1_| )";
 }
 void XORCard1Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 1 |" << endl;
-	cout << "|XOR|" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 1 |
+|XOR|
+|___| )";
 }
 void XORCard0Entrance()
 {
-	cout << " ___" << endl;
-	cout << "| 0 |" << endl;
-	cout << "|XOR|" << endl;
-	cout << "|___|" << endl;
+	cout << R"( 
+ ___
+| 0 |
+|XOR|
+|___| )";
 }
 void XORCard0Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|XOR|" << endl;
-	cout << "|_0_|" << endl;
+	cout << R"( 
+ ___
+|   |
+|XOR|
+|_0_| )";
 }
 void XORCard1Exit()
 {
-	cout << " ___" << endl;
-	cout << "|   |" << endl;
-	cout << "|XOR|" << endl;
-	cout << "|_1_|" << endl;
+	cout << R"( 
+ ___
+|   |
+|XOR|
+|_1_| )";
 }
-int main()
-{
 
+void space()
+{
+	cout << "		";
+}
+
+void LevelOne()
+{
+	baseCard1();
+	space();
+	baseCard0();
+	space();
+	baseCard1();
+	space();
+	XORCard0Entrance();
 }
