@@ -25,6 +25,7 @@ void pickedGameOption(int& menuIndex, bool& exitGame)
 	{
 	//  Player VS Player
 	case 0:
+		levelOne();
 		break;
 	//  Player VS Computer
 	case 1:

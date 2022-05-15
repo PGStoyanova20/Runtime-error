@@ -1,5 +1,6 @@
 #include "rules.h"
 
+//  Prints rules of booleO
 void printRules()
 {
 	cout << R"( 
