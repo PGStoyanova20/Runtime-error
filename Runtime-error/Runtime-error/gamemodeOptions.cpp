@@ -21,7 +21,6 @@ void pickedGameOption(int& menuIndex, bool& exitGame)
 	switch (menuIndex)
 	{
 	case 0:
-		//pickGamemode(); 
 		break;
 	case 1:
 	case 2:
